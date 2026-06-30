@@ -1,0 +1,16 @@
+@model Project
+<article class="project-card card-lift" data-category="@Model.Category.ToLowerInvariant()" data-title="@Model.Title.ToLowerInvariant()" data-tech="@string.Join(' ', Model.TechStack).ToLowerInvariant()">
+    <img src="@Model.ImageUrl" alt="Screenshot placeholder for @Model.Title" class="project-img" />
+    <div class="p-4">
+        <span class="badge rounded-pill text-bg-primary mb-3">@Model.Category</span>
+        <h3 class="h5 fw-bold">@Model.Title</h3>
+        <p class="text-muted-custom">@Model.Summary</p>
+        <div class="tech-list mb-3">
+            @foreach (var tech in Model.TechStack.Take(4)) { <span>@tech</span> }
+        </div>
+        <div class="d-flex gap-2 flex-wrap">
+            <a class="btn btn-sm btn-primary" asp-controller="Projects" asp-action="Details" asp-route-slug="@Model.Slug">View Details</a>
+            <a class="btn btn-sm btn-outline-secondary" href="@Model.GitHubUrl" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </div>
+</article>

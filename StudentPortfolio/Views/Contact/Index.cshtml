@@ -1,0 +1,80 @@
+@model ContactForm
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<section class="sub-hero">
+    <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Let’s connect.</h1>
+        <p>Use this page for recruiter, professor, internship, co-op, and project opportunities.</p>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-5">
+                <div class="content-card">
+                    <h2>Contact Details</h2>
+
+                    <ul class="clean-list">
+                        <li><i class="bi bi-envelope me-2"></i>acamovic.dragana@gmail.com</li>
+                        <li><i class="bi bi-github me-2"></i>github.com/dragana-a</li>
+                        <li><i class="bi bi-linkedin me-2"></i>linkedin.com/in/dragana-acamovic-900337270</li>
+                        <li><i class="bi bi-geo-alt me-2"></i>Hamilton, ON / Remote</li>
+                        <li><i class="bi bi-briefcase me-2"></i>Available for internships, co-op, junior roles</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="content-card">
+                    @if (TempData["Success"] is not null)
+                    {
+                        <div class="alert alert-success">
+                            @TempData["Success"]
+                        </div>
+                    }
+
+                    <form asp-action="Contact" asp-controller="Home" method="post" novalidate>
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"></label>
+                            <input asp-for="Name" class="form-control" placeholder="Your name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label"></label>
+                            <input asp-for="Email" class="form-control" placeholder="your.email@example.com" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Subject" class="form-label"></label>
+                            <input asp-for="Subject" class="form-control" placeholder="Opportunity, project, or question" />
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Message" class="form-label"></label>
+                            <textarea asp-for="Message" class="form-control" rows="6" placeholder="Write your message here..."></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+
+                        <button class="btn btn-primary rounded-pill px-4" type="submit">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
