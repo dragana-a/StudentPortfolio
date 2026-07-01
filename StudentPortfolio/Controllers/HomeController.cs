@@ -15,7 +15,7 @@ public class HomeController : Controller
         var model = new HomeViewModel
         {
             FeaturedProjects = _portfolioService.GetProjects().Take(3).ToList(),
-            FeaturedSkills = _portfolioService.GetSkills().Take(8).ToList()
+            FeaturedSkills = _portfolioService.GetSkills().Take(22).ToList()
         };
         return View(model);
     }

@@ -68,20 +68,152 @@ public class PortfolioService : IPortfolioService
     public Project? GetProjectBySlug(string slug) => GetProjects().FirstOrDefault(p => p.Slug == slug);
 
     public List<Skill> GetSkills() => new()
+{
+    new()
     {
-        new() { Name = "C#", Category = "Programming Languages", Proficiency = 85, IconClass = "bi bi-braces" },
-        new() { Name = "JavaScript", Category = "Programming Languages", Proficiency = 80, IconClass = "bi bi-filetype-js" },
-        new() { Name = "Python", Category = "Programming Languages", Proficiency = 75, IconClass = "bi bi-filetype-py" },
-        new() { Name = "ASP.NET Core MVC", Category = "Frameworks", Proficiency = 85, IconClass = "bi bi-window-stack" },
-        new() { Name = "React", Category = "Frameworks", Proficiency = 65, IconClass = "bi bi-lightning" },
-        new() { Name = "HTML5/CSS3", Category = "Web Technologies", Proficiency = 90, IconClass = "bi bi-code-square" },
-        new() { Name = "Bootstrap 5", Category = "Web Technologies", Proficiency = 88, IconClass = "bi bi-bootstrap" },
-        new() { Name = "SQL Server", Category = "Databases", Proficiency = 78, IconClass = "bi bi-database" },
-        new() { Name = "SQLite", Category = "Databases", Proficiency = 72, IconClass = "bi bi-hdd-stack" },
-        new() { Name = "Git/GitHub", Category = "Version Control", Proficiency = 82, IconClass = "bi bi-github" },
-        new() { Name = "xUnit", Category = "Testing", Proficiency = 62, IconClass = "bi bi-check2-square" },
-        new() { Name = "Visual Studio", Category = "IDEs & Tools", Proficiency = 88, IconClass = "bi bi-terminal" }
-    };
+        Name = "C#",
+        Category = "Programming Languages",
+        Proficiency = 90,
+        IconClass = "devicon-csharp-plain colored"
+    },
+
+    new()
+    {
+        Name = "JavaScript",
+        Category = "Programming Languages",
+        Proficiency = 82,
+        IconClass = "devicon-javascript-plain colored"
+    },
+
+    new()
+    {
+        Name = "Python",
+        Category = "Programming Languages",
+        Proficiency = 80,
+        IconClass = "devicon-python-plain colored"
+    },
+
+    new()
+    {
+        Name = "ASP.NET Core MVC",
+        Category = "Frameworks",
+        Proficiency = 90,
+        IconClass = "devicon-dotnetcore-plain colored"
+    },
+
+    new()
+    {
+        Name = "React",
+        Category = "Frameworks",
+        Proficiency = 70,
+        IconClass = "devicon-react-original colored"
+    },
+
+    new()
+    {
+        Name = "HTML5 / CSS3",
+        Category = "Web Technologies",
+        Proficiency = 92,
+        IconClass = "devicon-html5-plain colored"
+    },
+
+    new()
+    {
+        Name = "Bootstrap 5",
+        Category = "Web Technologies",
+        Proficiency = 90,
+        IconClass = "devicon-bootstrap-plain colored"
+    },
+
+    new()
+    {
+        Name = "SQL Server",
+        Category = "Databases",
+        Proficiency = 82,
+        IconClass = "devicon-microsoftsqlserver-plain colored"
+    },
+
+    new()
+    {
+        Name = "SQLite",
+        Category = "Databases",
+        Proficiency = 75,
+        IconClass = "devicon-sqlite-plain colored"
+    },
+
+    new()
+    {
+        Name = "MongoDB",
+        Category = "Databases",
+        Proficiency = 72,
+        IconClass = "devicon-mongodb-original colored"
+    },
+
+    new()
+    {
+        Name = "xUnit",
+        Category = "Testing",
+        Proficiency = 70,
+        IconClass = "devicon-dotnetcore-plain colored"
+    },
+
+    new()
+    {
+        Name = "Visual Studio",
+        Category = "IDEs & Tools",
+        Proficiency = 92,
+        IconClass = "devicon-visualstudio-plain colored"
+    },
+    new()
+    {
+        Name = "NumPy",
+        Category = "Machine Learning",
+        Proficiency = 80,
+        IconClass = "devicon-numpy-original colored"
+    },
+    new()
+    {
+        Name = "Pandas",
+        Category = "Machine Learning",
+        Proficiency = 82,
+        IconClass = "devicon-pandas-original colored"
+    },
+    new()
+    {
+        Name = "GitHub",
+        Category = "Version Control",
+        Proficiency = 86,
+        IconClass = "devicon-github-original"
+    },
+    new()
+    {
+        Name = "Java",
+        Category = "Programming Languages",
+        Proficiency = 78,
+        IconClass = "devicon-java-plain colored"
+    },
+    new()
+    {
+        Name = "PHP",
+        Category = "Programming Languages",
+        Proficiency = 68,
+        IconClass = "devicon-php-plain colored"
+    },
+    new()
+    {
+        Name = "TypeScript",
+        Category = "Programming Languages",
+        Proficiency = 72,
+        IconClass = "devicon-typescript-plain colored"
+    },
+    new()
+    {
+        Name = "Swift",
+        Category = "Programming Languages",
+        Proficiency = 65,
+        IconClass = "devicon-swift-plain colored"
+    }
+};
 
     public List<ExperienceItem> GetExperience() => new()
     {
