@@ -1,8 +1,0 @@
-<svg width="500" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="bg" x1="0" x2="1"><stop offset="0%" stop-color="#4F46E5"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient></defs>
-<rect width="500" height="350" rx="28" fill="#111827"/><circle cx="250" cy="175" r="90" fill="url(#bg)" opacity=".18"/>
-<rect x="70" y="65" width="90" height="90" rx="18" fill="url(#bg)"/><text x="115" y="122" font-size="40" text-anchor="middle" fill="white" font-family="Segoe UI" font-weight="700">C#</text>
-<rect x="210" y="105" width="85" height="120" rx="14" fill="#E5E7EB"/><circle cx="252" cy="135" r="14" fill="#6366F1"/><rect x="242" y="149" width="20" height="35" rx="6" fill="#6366F1"/>
-<line x1="252" y1="180" x2="225" y2="205" stroke="#6366F1" stroke-width="8"/><line x1="252" y1="180" x2="279" y2="205" stroke="#6366F1" stroke-width="8"/>
-<polygon points="320,95 335,175 350,95" fill="#A78BFA"/><rect x="55" y="285" width="390" height="18" rx="9" fill="#374151"/>
-<text x="250" y="330" fill="#F9FAFB" text-anchor="middle" font-size="24" font-family="Segoe UI">C# Adventure Game</text></svg>

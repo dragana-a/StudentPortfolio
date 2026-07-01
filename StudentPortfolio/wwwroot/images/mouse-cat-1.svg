@@ -1,0 +1,30 @@
+<svg width="500" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Mouse and Cat JavaScript Game Illustration</title>
+<desc id="desc">A bright JavaScript game card showing a cat chasing a mouse with playful motion lines.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF7ED"/><stop offset="52%" stop-color="#FEF3C7"/><stop offset="100%" stop-color="#CCFBF1"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#64748B" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="500" height="350" rx="32" fill="url(#bg)"/>
+<circle cx="100" cy="78" r="44" fill="#FDE68A" opacity=".75"/>
+<circle cx="413" cy="249" r="72" fill="#99F6E4" opacity=".52"/>
+<rect x="70" y="61" width="360" height="215" rx="30" fill="#FFFFFF" opacity=".84" filter="url(#shadow)"/>
+<rect x="98" y="89" width="76" height="76" rx="18" fill="#F7DF1E"/>
+<text x="136" y="139" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle" fill="#1F2937">JS</text>
+<g transform="translate(300 100)">
+  <path d="M30 13l-18 27h36L30 13Z" fill="#F59E0B"/>
+  <path d="M88 13L70 40h36L88 13Z" fill="#F59E0B"/>
+  <circle cx="59" cy="71" r="48" fill="#FDBA74"/>
+  <circle cx="41" cy="64" r="5" fill="#1F2937"/><circle cx="77" cy="64" r="5" fill="#1F2937"/>
+  <path d="M59 73q0 13-15 13M59 73q0 13 15 13" fill="none" stroke="#1F2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M16 78h25M77 78h25M18 94h23M77 94h23" stroke="#1F2937" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+</g>
+<g transform="translate(144 188)">
+  <ellipse cx="36" cy="28" rx="34" ry="24" fill="#E2E8F0"/>
+  <circle cx="18" cy="10" r="10" fill="#E2E8F0"/><circle cx="42" cy="7" r="10" fill="#E2E8F0"/>
+  <circle cx="51" cy="26" r="4" fill="#1F2937"/>
+  <path d="M69 27c33-7 47-25 68-49" fill="none" stroke="#14B8A6" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 12"/>
+  <path d="M0 32c-25 1-34-10-40-19" fill="none" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+</g>
+<text x="250" y="313" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#1E293B">Mouse &amp; Cat Game</text>
+</svg>

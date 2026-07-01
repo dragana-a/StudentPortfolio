@@ -16,7 +16,7 @@ public class PortfolioService : IPortfolioService
 
             Description = "A full-stack web application developed for a small baking business to streamline product management and custom order requests. The platform allows customers to browse products, create accounts, submit detailed custom cake and dessert orders, and track their requests through a centralized system. The application replaces traditional communication through social media and text messaging with an organized, database-driven solution, providing a more efficient experience for both customers and administrators. Designed with responsive layouts and accessibility in mind, the website delivers a seamless experience across desktop and mobile devices.",
 
-            ImageUrl = "/images/project-bakery.svg",
+            ImageUrl = "/images/bakery-website-1.svg",
             Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/bakery-capstone",
             LiveDemoUrl = "#",
@@ -51,6 +51,7 @@ public class PortfolioService : IPortfolioService
             }
         },
 
+
         new Project
         {
             Id = 2,
@@ -61,7 +62,7 @@ public class PortfolioService : IPortfolioService
 
             Description = "Replace with your real analysis findings. This project uses Python, pandas, and visualizations to compare growth, volatility, returns, and correlations.",
 
-            ImageUrl = "/images/project-data.svg",
+            ImageUrl = "/images/stocks.svg",
             Timeline = "Jun 2026",
             GitHubUrl = "https://github.com/dragana-a/AI-Data-Analysis.git",
             LiveDemoUrl = "#",
@@ -96,6 +97,8 @@ public class PortfolioService : IPortfolioService
                 "Risk-adjusted return metrics" 
             }
         },
+
+
         new Project
         {
             Id = 3,
@@ -107,7 +110,7 @@ public class PortfolioService : IPortfolioService
 
             Description = "Replace with your real client-safe description. This project focused on JSON-driven personalization, error handling, configuration files, and embeddable playback.",
 
-            ImageUrl = "/images/project-player.svg",
+            ImageUrl = "/images/personalized-player-1.svg",
             Timeline = "Jan 2026 - Apr 2026",
             GitHubUrl = "#",
             LiveDemoUrl = "#",
@@ -155,7 +158,7 @@ public class PortfolioService : IPortfolioService
 
             Description = "5-Stack is a full-stack web application that recreates core social media functionality. Users can register for an account, log in securely, customize their profile, create and manage posts, and interact with content through an intuitive user interface. The project demonstrates full-stack development principles including authentication, database integration, CRUD operations, and responsive web design.",
 
-            ImageUrl = "/images/project-social.svg",
+            ImageUrl = "/images/5-stack-platform.svg",
 
             Timeline = "2025",
 
@@ -217,7 +220,7 @@ public class PortfolioService : IPortfolioService
             Summary = "A personal portfolio website showcasing projects, skills, and experience.",
             Description = "This portfolio website is designed to present my professional work, including projects, skills, and experience. It serves as a digital resume and a platform to demonstrate my capabilities in web development and design.",
 
-            ImageUrl = "/images/project-portfolio.svg",
+            ImageUrl = "/images/portfolio-website.svg",
             Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/StudentPortfolio.git",
             LiveDemoUrl = "#",
@@ -257,6 +260,8 @@ public class PortfolioService : IPortfolioService
                 "Implementing SEO best practices"
             }
         },
+
+
         new Project
         {
             Id = 6,
@@ -267,7 +272,7 @@ public class PortfolioService : IPortfolioService
 
             Description = "This project involves the development of a game using Godot, focusing on gameplay mechanics, user interface design, and interactive elements. The game is designed to provide an engaging experience for players, incorporating various levels, challenges, and rewards.",
 
-            ImageUrl = "/images/csharp-game.svg",
+            ImageUrl = "/images/csharp-game-1.svg",
             Timeline = "2025",
             GitHubUrl = "https://github.com/dragana-a/Kew-s-Quest-Dragon-s-Lair.git",
             LiveDemoUrl = "https://www.youtube.com/watch?si=VQvVLW8EdTWUV3Yr&v=VqaVK2Zo42Q&feature=youtu.be",
@@ -307,6 +312,8 @@ public class PortfolioService : IPortfolioService
                 "Adding more complex gameplay mechanics"
             }
         },
+
+
         new Project
         {
             Id = 7,
@@ -316,7 +323,7 @@ public class PortfolioService : IPortfolioService
             Summary = "A browser-based game developed using JavaScript, HTML, and CSS, featuring interactive gameplay and user engagement.",
             Description = "This project involves creating a browser-based game that challenges players to navigate through various obstacles and achieve high scores. The game is designed to be engaging and interactive, utilizing JavaScript for game logic, HTML for structure, and CSS for styling. Saving player hghscore with multiple levels of difficulty to be selected by the player.",
 
-            ImageUrl = "/images/mouse-cat.svg",
+            ImageUrl = "/images/mouse-cat-1.svg",
             Timeline = "2024",
             GitHubUrl = "https://github.com/dragana-a/Mousin--Around.git",
             LiveDemoUrl = "https://dragana-a.github.io/Mousin--Around/",
@@ -346,18 +353,62 @@ public class PortfolioService : IPortfolioService
                 "Implementing responsive design",
                 "Creating engaging user experiences"
             }
-        }
+        },
+
+
         new Project
         {
             Id = 8,
-            Slug = "python-data-analysis",
-            Title = "Python Data Analysis",
+            Slug = "brain-tumor-segmentation",
+            Title = "Brain Tumor Segmentation Analysis",
             Category = "Data Analysis",
-            Summary = "A data analysis project using Python, pandas, and visualization libraries to extract insights from datasets.",
-            Description = "This project involves analyzing datasets using Python and its powerful libraries such as pandas and matplotlib. The goal is to clean, process, and visualize data to uncover trends, patterns, and insights that can inform decision-making.",
-            ImageUrl = "/images/python-data.svg",
+            Summary = "A medical imaging analysis project using Python and machine learning to detect and segment brain tumors from MRI scans.",
+            Description = "This project focuses on medical image analysis using deep learning techniques to identify and segment brain tumors from MRI scans. The application processes brain scan images, applies preprocessing techniques, and uses convolutional neural networks to accurately detect tumor regions. The goal is to assist medical professionals in early diagnosis and treatment planning by providing automated segmentation results with visualization overlays.",
+            ImageUrl = "/images/brain-ai-1.svg",
             Timeline = "2025",
-            GitHubUrl = "
+            GitHubUrl = "https://github.com/dragana-a/Brain-Tumor-Segmentation.git",
+            LiveDemoUrl = "#",
+            DocumentationUrl = "#",
+            TechStack = new()
+            {
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "OpenCV",
+                "NumPy",
+                "pandas",
+                "matplotlib"
+            },
+            Features = new()
+            {
+                "MRI scan preprocessing and normalization",
+                "Brain tumor detection and segmentation",
+                "Multi-class tumor classification",
+                "Visualization overlays on original scans",
+                "Performance metrics and accuracy reporting"
+            },
+            Challenges = new()
+            {
+                "Processing high-resolution medical imaging data",
+                "Handling imbalanced datasets",
+                "Ensuring accurate tumor boundary detection",
+                "Meeting medical imaging standards for accuracy"
+            },
+            LessonsLearned = new()
+            {
+                "Medical image processing techniques",
+                "Deep learning for computer vision",
+                "Convolutional neural network architecture",
+                "Ethical considerations in healthcare AI"
+            },
+            FutureImprovements = new()
+            {
+                "3D volumetric segmentation",
+                "Real-time processing optimization",
+                "Integration with DICOM medical imaging standards",
+                "Multi-modal imaging fusion (MRI, CT scans)"
+            }
+        }
     };
 
     public Project? GetProjectBySlug(string slug) => GetProjects().FirstOrDefault(p => p.Slug == slug);

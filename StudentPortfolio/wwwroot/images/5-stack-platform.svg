@@ -1,0 +1,115 @@
+<svg width="500" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">5-Stack Social Platform Project Illustration</title>
+  <desc id="desc">A soft pink and purple social media dashboard illustration for a portfolio project card.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff8fc"/>
+      <stop offset="100%" stop-color="#f6efff"/>
+    </linearGradient>
+
+    <linearGradient id="pinkPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6fae"/>
+      <stop offset="55%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="purpleBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#ec4899" flood-opacity="0.16"/>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#2c1830" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="350" rx="28" fill="url(#bgGrad)"/>
+
+  <circle cx="108" cy="72" r="58" fill="url(#pinkPurple)" opacity="0.24"/>
+  <circle cx="408" cy="263" r="52" fill="url(#purpleBlue)" opacity="0.22"/>
+  <circle cx="438" cy="96" r="8" fill="none" stroke="#ec4899" stroke-width="4" opacity="0.55"/>
+  <circle cx="62" cy="275" r="6" fill="none" stroke="#8b5cf6" stroke-width="3" opacity="0.55"/>
+
+  <g opacity="0.45" fill="#8b5cf6">
+    <circle cx="24" cy="65" r="2.5"/><circle cx="40" cy="65" r="2.5"/><circle cx="56" cy="65" r="2.5"/>
+    <circle cx="24" cy="81" r="2.5"/><circle cx="40" cy="81" r="2.5"/><circle cx="56" cy="81" r="2.5"/>
+    <circle cx="24" cy="97" r="2.5"/><circle cx="40" cy="97" r="2.5"/><circle cx="56" cy="97" r="2.5"/>
+  </g>
+
+  <g opacity="0.45" fill="#ec4899">
+    <circle cx="430" cy="290" r="2.5"/><circle cx="446" cy="290" r="2.5"/><circle cx="462" cy="290" r="2.5"/>
+    <circle cx="430" cy="306" r="2.5"/><circle cx="446" cy="306" r="2.5"/><circle cx="462" cy="306" r="2.5"/>
+    <circle cx="430" cy="322" r="2.5"/><circle cx="446" cy="322" r="2.5"/><circle cx="462" cy="322" r="2.5"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="30" y="151" width="54" height="44" rx="15" fill="url(#pinkPurple)"/>
+    <path d="M56 189 C42 178 35 170 35 160 C35 153 41 148 48 148 C52 148 55 150 57 154 C60 150 63 148 68 148 C75 148 81 153 81 160 C81 170 72 179 56 189Z" fill="white"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <circle cx="435" cy="203" r="28" fill="url(#purpleBlue)"/>
+    <text x="435" y="213" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="35" font-weight="800" fill="white">#</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="56" width="340" height="244" rx="20" fill="#ffffff" fill-opacity="0.84" stroke="#f4bdd8"/>
+    <rect x="80" y="56" width="340" height="35" rx="20" fill="#22172d"/>
+    <rect x="80" y="76" width="340" height="15" fill="#22172d"/>
+    <circle cx="100" cy="73" r="5" fill="#ff6fae"/>
+    <circle cx="118" cy="73" r="5" fill="#f9a8d4"/>
+    <circle cx="136" cy="73" r="5" fill="#a78bfa"/>
+
+    <rect x="80" y="91" width="83" height="209" fill="#ffffff" fill-opacity="0.72"/>
+    <text x="103" y="122" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ec4899">5</text>
+    <text x="119" y="122" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#2c1830">Stack</text>
+
+    <rect x="94" y="145" width="58" height="24" rx="10" fill="#eee7ff"/>
+    <text x="113" y="162" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#2c1830">Home</text>
+    <circle cx="101" cy="157" r="5" fill="#8b5cf6"/>
+
+    <text x="104" y="189" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#657089">Explore</text>
+    <text x="104" y="214" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#657089">Messages</text>
+    <text x="104" y="239" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#657089">Profile</text>
+
+    <rect x="95" y="262" width="56" height="22" rx="11" fill="url(#pinkPurple)"/>
+    <text x="123" y="277" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" fill="white">Post</text>
+
+    <rect x="178" y="111" width="151" height="58" rx="14" fill="white" stroke="#eadff4"/>
+    <circle cx="199" cy="134" r="14" fill="url(#pinkPurple)" opacity="0.85"/>
+    <circle cx="199" cy="130" r="5" fill="white" opacity="0.75"/>
+    <path d="M188 148 C191 141 207 141 210 148" fill="white" opacity="0.75"/>
+    <text x="222" y="134" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#8b7c91">What’s happening?</text>
+    <line x1="222" y1="150" x2="303" y2="150" stroke="#efe7f4" stroke-width="2"/>
+    <rect x="286" y="139" width="28" height="16" rx="8" fill="url(#purpleBlue)"/>
+    <text x="300" y="151" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="800" fill="white">Post</text>
+
+    <rect x="178" y="185" width="151" height="74" rx="14" fill="white" stroke="#eadff4"/>
+    <circle cx="201" cy="211" r="14" fill="url(#pinkPurple)" opacity="0.85"/>
+    <rect x="225" y="202" width="48" height="6" rx="3" fill="#b8b1ca"/>
+    <rect x="225" y="216" width="83" height="6" rx="3" fill="#d7d2e3"/>
+    <rect x="225" y="230" width="65" height="6" rx="3" fill="#d7d2e3"/>
+    <text x="202" y="249" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#6d5dfc">♡</text>
+    <text x="248" y="249" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#657089">↻</text>
+    <text x="294" y="249" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#ec4899">♥</text>
+
+    <rect x="342" y="111" width="63" height="82" rx="12" fill="white" stroke="#eadff4"/>
+    <text x="354" y="130" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" fill="#2c1830">Who to follow</text>
+    <circle cx="357" cy="148" r="9" fill="#ec4899" opacity="0.75"/>
+    <rect x="372" y="144" width="21" height="5" rx="2.5" fill="#d7d2e3"/>
+    <circle cx="357" cy="170" r="9" fill="#8b5cf6" opacity="0.75"/>
+    <rect x="372" y="166" width="21" height="5" rx="2.5" fill="#d7d2e3"/>
+
+    <rect x="342" y="209" width="63" height="60" rx="12" fill="white" stroke="#eadff4"/>
+    <text x="354" y="228" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" fill="#2c1830">Trends</text>
+    <rect x="354" y="242" width="38" height="5" rx="2.5" fill="#d7d2e3"/>
+    <rect x="354" y="255" width="30" height="5" rx="2.5" fill="#d7d2e3"/>
+  </g>
+
+  <text x="250" y="328" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800" fill="#2c1830">5-Stack Social Platform</text>
+</svg>
