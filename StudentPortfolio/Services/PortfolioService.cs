@@ -268,6 +268,7 @@ public class PortfolioService : IPortfolioService
             Slug = "csharp-game-development",
             Title = "Kew's Quest: Dragon's Lair",
             Category = "Game Development",
+
             Summary = "A game development project using Godot and C# to create an interactive gaming experience.",
 
             Description = "This project involves the development of a game using Godot, focusing on gameplay mechanics, user interface design, and interactive elements. The game is designed to provide an engaging experience for players, incorporating various levels, challenges, and rewards.",
@@ -320,6 +321,7 @@ public class PortfolioService : IPortfolioService
             Slug = "javascript-game",
             Title = "Mousin' Around",
             Category = "Game Development",
+
             Summary = "A browser-based game developed using JavaScript, HTML, and CSS, featuring interactive gameplay and user engagement.",
             Description = "This project involves creating a browser-based game that challenges players to navigate through various obstacles and achieve high scores. The game is designed to be engaging and interactive, utilizing JavaScript for game logic, HTML for structure, and CSS for styling. Saving player hghscore with multiple levels of difficulty to be selected by the player.",
 
@@ -362,6 +364,7 @@ public class PortfolioService : IPortfolioService
             Slug = "brain-tumor-segmentation",
             Title = "Brain Tumor Segmentation Analysis",
             Category = "Data Analysis",
+
             Summary = "A medical imaging analysis project using Python and machine learning to detect and segment brain tumors from MRI scans.",
             Description = "This project focuses on medical image analysis using deep learning techniques to identify and segment brain tumors from MRI scans. The application processes brain scan images, applies preprocessing techniques, and uses convolutional neural networks to accurately detect tumor regions. The goal is to assist medical professionals in early diagnosis and treatment planning by providing automated segmentation results with visualization overlays.",
             ImageUrl = "/images/brain-ai-1.svg",
@@ -408,6 +411,48 @@ public class PortfolioService : IPortfolioService
                 "Integration with DICOM medical imaging standards",
                 "Multi-modal imaging fusion (MRI, CT scans)"
             }
+        },
+        new Project
+        {
+            Id = 9,
+            Slug = "gold-and-oil-data",
+            Title = "Gold and Oil Data Analysis",
+            Category = "Data Analysis",
+
+            Summary = "A data analysis project comparing gold and oil market trends from the previous decade using Python and visualization techniques.",
+            Description = "This project analyzes historical data of gold and oil markets over the past decade. It involves data collection, cleaning, and visualization to identify trends, correlations, and insights. The analysis helps investors and analysts make informed decisions based on historical market behavior.",
+            ImageUrl = "/images/gold-oil-analysis.svg",
+            Timeline = "2026",
+            GitHubUrl = "https://github.com/dragana-a/Gold-and-Oil-Stock-Data-Analysis.git",
+            LiveDemoUrl = "#",
+            DocumentationUrl = "#",
+            TechStack = new()
+            {
+                "Python",
+                "pandas",
+                "matplotlib",
+                "NumPy",
+                "Data Visualization"
+            },
+            Features = new()
+            {
+                "Historical data analysis of gold and oil markets",
+                "Trend identification and correlation analysis",
+                "Visualization of market behavior over time",
+                "Insights for investment decision-making"
+                },
+            Challenges = new()
+            {
+                "Collecting and cleaning large datasets",
+                "Identifying meaningful trends and correlations",
+                "Creating clear and informative visualizations"
+                },
+            LessonsLearned = new()
+            {
+                "Data analysis techniques using Python",
+                "Visualization best practices for financial data",
+                "Interpreting market trends and correlations"
+                },
         }
     };
 
