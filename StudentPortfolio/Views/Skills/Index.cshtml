@@ -1,11 +1,46 @@
 @model IEnumerable<IGrouping<string, Skill>>
+
 @{
     ViewData["Title"] = "Skills";
 }
-<section class="sub-hero"><div class="container"><span class="eyebrow">Skills</span><h1>Technical toolkit.</h1><p>Visual overview of languages, frameworks, databases, testing, and tools.</p></div></section>
-<section class="section-pad"><div class="container"><div class="info-grid">
-@foreach (var group in Model)
-{
-    <div class="content-card"><h2 class="h4">@group.Key</h2>@foreach (var skill in group){<div class="skill-row"><div class="d-flex justify-content-between"><span><i class="@skill.IconClass me-2"></i>@skill.Name</span><strong>@skill.Proficiency%</strong></div><div class="progress" role="progressbar" aria-label="@skill.Name proficiency" aria-valuenow="@skill.Proficiency" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:@skill.Proficiency%"></div></div></div>}</div>
-}
-</div></div></section>
+
+<section class="sub-hero">
+    <div class="container">
+        <span class="eyebrow">Skills</span>
+
+        <h1>Technical toolkit.</h1>
+
+        <p>
+            Visual overview of languages, frameworks, databases,
+            testing, and tools.
+        </p>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="container">
+        <div class="info-grid">
+
+            @foreach (var group in Model)
+            {
+                <div class="content-card">
+                    <h2 class="h4">@group.Key</h2>
+
+                    @foreach (var skill in group)
+                    {
+                        <div class="skill-row">
+                            <div class="d-flex justify-content-between">
+                                <span>
+                                    <i class="@skill.IconClass me-2"></i>
+                                    @skill.Name
+                                </span>
+
+                            </div>                           
+                        </div>
+                    }
+                </div>
+            }
+
+        </div>
+    </div>
+</section>

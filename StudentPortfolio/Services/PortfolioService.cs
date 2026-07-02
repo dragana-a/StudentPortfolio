@@ -503,7 +503,6 @@ public class PortfolioService : IPortfolioService
     {
         Name = "C#",
         Category = "Programming Languages",
-        Proficiency = 90,
         IconClass = "devicon-csharp-plain colored"
     },
 
@@ -511,7 +510,6 @@ public class PortfolioService : IPortfolioService
     {
         Name = "JavaScript",
         Category = "Programming Languages",
-        Proficiency = 82,
         IconClass = "devicon-javascript-plain colored"
     },
 
@@ -519,7 +517,6 @@ public class PortfolioService : IPortfolioService
     {
         Name = "Python",
         Category = "Programming Languages",
-        Proficiency = 80,
         IconClass = "devicon-python-plain colored"
     },
 
@@ -527,14 +524,12 @@ public class PortfolioService : IPortfolioService
     {
         Name = "ASP.NET Core MVC",
         Category = "Frameworks",
-        Proficiency = 90,
         IconClass = "devicon-dotnetcore-plain colored"
     },
     new()
     {
         Name = "Blazor",
         Category = "Frameworks",
-        Proficiency = 90,
         IconClass = "devicon-blazor-plain colored"
     },
 
@@ -542,7 +537,6 @@ public class PortfolioService : IPortfolioService
     {
         Name = "React",
         Category = "Frameworks",
-        Proficiency = 70,
         IconClass = "devicon-react-original colored"
     },
 
@@ -550,14 +544,12 @@ public class PortfolioService : IPortfolioService
     {
         Name = "HTML5",
         Category = "Web Technologies",
-        Proficiency = 92,
         IconClass = "devicon-html5-plain colored"
     },
     new()
     {
         Name = "CSS3",
         Category = "Web Technologies",
-        Proficiency = 92,
         IconClass = "devicon-css3-plain colored"
     },
 
@@ -565,7 +557,6 @@ public class PortfolioService : IPortfolioService
     {
         Name = "Bootstrap 5",
         Category = "Web Technologies",
-        Proficiency = 90,
         IconClass = "devicon-bootstrap-plain colored"
     },
 
@@ -573,7 +564,6 @@ public class PortfolioService : IPortfolioService
     {
         Name = "SQL Server",
         Category = "Databases",
-        Proficiency = 82,
         IconClass = "devicon-microsoftsqlserver-plain colored"
     },
 
@@ -581,7 +571,6 @@ public class PortfolioService : IPortfolioService
     {
         Name = "SQLite",
         Category = "Databases",
-        Proficiency = 75,
         IconClass = "devicon-sqlite-plain colored"
     },
 
@@ -589,15 +578,13 @@ public class PortfolioService : IPortfolioService
     {
         Name = "MongoDB",
         Category = "Databases",
-        Proficiency = 72,
-        IconClass = "devicon-mongodb-original colored"
+        IconClass = "devicon-mongodb-plain colored"
     },
 
     new()
     {
         Name = "xUnit",
         Category = "Testing",
-        Proficiency = 70,
         IconClass = "devicon-dotnetcore-plain colored"
     },
 
@@ -605,120 +592,103 @@ public class PortfolioService : IPortfolioService
     {
         Name = "Visual Studio",
         Category = "IDEs & Tools",
-        Proficiency = 92,
         IconClass = "devicon-visualstudio-plain colored"
     },
     new()
     {
         Name = "VSCode",
         Category = "IDEs & Tools",
-        Proficiency = 92,
         IconClass = "devicon-vscode-plain colored"
     },
     new()
     {
         Name = "JetBrains",
         Category = "IDEs & Tools",
-        Proficiency = 92,
         IconClass = "devicon-jetbrains-plain colored"
     },
     new()
     {
         Name = "NumPy",
-        Category = "Machine Learning",
-        Proficiency = 80,
-        IconClass = "devicon-numpy-original colored"
+        Category = "Data Analysis",
+        IconClass = "devicon-numpy-plain colored"
     },
     new()
     {
         Name = "Pandas",
-        Category = "Machine Learning",
-        Proficiency = 82,
-        IconClass = "devicon-pandas-original colored"
+        Category = "Data Analysis",
+        IconClass = "devicon-pandas-plain colored"
     },
     new()
     {
         Name = "GitHub",
         Category = "Version Control",
-        Proficiency = 86,
         IconClass = "devicon-github-original"
     },
     new()
     {
         Name = "Java",
         Category = "Programming Languages",
-        Proficiency = 78,
         IconClass = "devicon-java-plain colored"
     },
     new()
     {
         Name = "PHP",
         Category = "Programming Languages",
-        Proficiency = 68,
         IconClass = "devicon-php-plain colored"
     },
     new()
     {
         Name = "TypeScript",
         Category = "Programming Languages",
-        Proficiency = 72,
         IconClass = "devicon-typescript-plain colored"
     },
     new()
     {
         Name = "Swift",
         Category = "Programming Languages",
-        Proficiency = 65,
         IconClass = "devicon-swift-plain colored"
     },
     new()
     {
         Name = "AWS",
         Category = "Cloud Platforms",
-        Proficiency = 65,
-        IconClass = "devicon-amazonwebservices-original colored"
+        IconClass = "devicon-amazonwebservices-plain colored"
     },
 
     new()
     {
         Name = "Microsoft Azure",
         Category = "Cloud Platforms",
-        Proficiency = 55,
         IconClass = "devicon-azure-plain colored"
     },
     new()
     {
         Name = "Figma",
         Category = "Web Technologies",
-        Proficiency = 65,
-        IconClass = "devicon-figma-original colored"
+        IconClass = "devicon-figma-plain colored"
     },
     new()
     {
         Name = "Godot",
         Category = "Game Development",
-        Proficiency = 70,
         IconClass = "devicon-godot-plain colored"
     },
     new()
     {
         Name = "Unity",
         Category = "Game Development",
-        Proficiency = 75,
-        IconClass = "devicon-unity-original colored"
+        IconClass = "devicon-unity-plain colored"
     },
     new()
     {
-        Name = "matplotlib",
-        Category = "Data Visualization",
-        Proficiency = 80,
-        IconClass = "devicon-matplotlib-original colored"   
+        Name = "Matplotlib",
+        Category = "Data Analysis",
+        IconClass = "devicon-matplotlib-plain colored"   
     },
     new()
     {
         Name = "WordPress",
         Category = "Web Technologies",
-        Proficiency = 70,
         IconClass = "devicon-wordpress-plain colored"
     }
 };
