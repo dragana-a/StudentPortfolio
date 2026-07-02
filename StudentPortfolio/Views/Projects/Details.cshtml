@@ -1,6 +1,114 @@
 @model Project
+
 @{
     ViewData["Title"] = Model.Title;
 }
-<section class="sub-hero"><div class="container"><span class="eyebrow">@Model.Category</span><h1>@Model.Title</h1><p>@Model.Summary</p><div class="d-flex gap-2 flex-wrap mt-3"><a class="btn btn-primary rounded-pill" href="@Model.GitHubUrl" target="_blank">GitHub</a><a class="btn btn-outline-secondary rounded-pill" href="@Model.LiveDemoUrl" target="_blank">Live Demo</a><a class="btn btn-glass rounded-pill" href="@Model.DocumentationUrl" target="_blank">Documentation</a></div></div></section>
-<section class="section-pad"><div class="container"><div class="row g-4"><div class="col-lg-8"><div class="content-card"><img src="@Model.ImageUrl" class="detail-img" alt="@Model.Title screenshot placeholder" /><h2 class="mt-4">Overview</h2><p>@Model.Description</p><h3>Architecture & Features</h3><ul>@foreach(var item in Model.Features){<li>@item</li>}</ul><h3>Challenges & Solutions</h3><ul>@foreach(var item in Model.Challenges){<li>@item</li>}</ul><h3>Lessons Learned</h3><ul>@foreach(var item in Model.LessonsLearned){<li>@item</li>}</ul><h3>Future Improvements</h3><ul>@foreach(var item in Model.FutureImprovements){<li>@item</li>}</ul></div></div><aside class="col-lg-4"><div class="content-card sticky-card"><h2>Project Details</h2><p><strong>Timeline:</strong> @Model.Timeline</p><h3 class="h5">Tech Stack</h3><div class="tech-list">@foreach(var tech in Model.TechStack){<span>@tech</span>}</div></div></aside></div></div></section>
+
+<section class="sub-hero">
+    <div class="container">
+        <span class="eyebrow">@Model.Category</span>
+
+        <h1>@Model.Title</h1>
+
+        <p>@Model.Summary</p>
+
+        <div class="d-flex gap-2 flex-wrap mt-3">
+            <a class="btn btn-primary rounded-pill"
+               href="@Model.GitHubUrl"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a class="btn btn-outline-secondary rounded-pill"
+               href="@Model.LiveDemoUrl"
+               target="_blank">
+                Live Demo
+            </a>
+
+            <a class="btn btn-glass rounded-pill"
+               href="@Model.DocumentationUrl"
+               target="_blank">
+                Documentation
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-lg-8">
+                <div class="content-card">
+
+                    <img src="@Model.ImageUrl"
+                         class="detail-img"
+                         alt="@Model.Title screenshot placeholder" />
+
+                    <h2 class="mt-4">Overview</h2>
+
+                    <p>@Model.Description</p>
+
+                    <h3>Architecture &amp; Features</h3>
+
+                    <ul>
+                        @foreach (var item in Model.Features)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+
+                    <h3>Challenges &amp; Solutions</h3>
+
+                    <ul>
+                        @foreach (var item in Model.Challenges)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+
+                    <h3>Lessons Learned</h3>
+
+                    <ul>
+                        @foreach (var item in Model.LessonsLearned)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+
+                    <h3>Future Improvements</h3>
+
+                    <ul>
+                        @foreach (var item in Model.FutureImprovements)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+
+                </div>
+            </div>
+
+            <aside class="col-lg-4">
+                <div class="content-card sticky-card">
+
+                    <h2>Project Details</h2>
+
+                    <p>
+                        <strong>Timeline:</strong> @Model.Timeline
+                    </p>
+
+                    <h3 class="h5">Tech Stack</h3>
+
+                    <div class="tech-list">
+                        @foreach (var tech in Model.TechStack)
+                        {
+                            <span>@tech</span>
+                        }
+                    </div>
+
+                </div>
+            </aside>
+
+        </div>
+    </div>
+</section>
