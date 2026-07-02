@@ -453,6 +453,45 @@ public class PortfolioService : IPortfolioService
                 "Visualization best practices for financial data",
                 "Interpreting market trends and correlations"
                 },
+        },
+        new Project          {
+            Id = 10,
+            Slug = "thriftshop-tracker",
+            Title = "Thriftshop Tracker",
+            Category = "Web Application",
+            Summary = "A JavaScript-based website that uses the user's location to show nearby thrift stores.",
+            Description = "This project is a personal budget tracker that helps users monitor their income and expenses. It provides features forA location-based web app that uses JavaScript and the user’s current GPS location to display nearby thrift stores. The project focuses on interactive maps, geolocation, and helping users quickly find second-hand stores near them.",
+            ImageUrl = "/images/thrift-shop-gps.svg",
+            GitHubUrl = "https://github.com/dragana-a/Thrift-Store-GPS.git",
+            Timeline = "2025",
+            LiveDemoUrl = "#",
+            DocumentationUrl = "#",
+            TechStack = new()
+            {
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Geolocation API"
+            },
+            Features = new()
+            {
+                "Uses the user's current location",
+                "Displays nearby thrift stores",
+                "Interactive location-based search",
+                "Simple and user-friendly interface"
+            },
+            Challenges = new()
+            {
+                "Working with browser geolocation permissions",
+                "Handling location accuracy",
+                "Displaying relevant nearby results"
+            },
+            LessonsLearned = new()
+            {
+                "Using JavaScript geolocation features",
+                "Building location-based web applications",
+                "Improving user experience with map-based tools"
+            }
         }
     };
 
