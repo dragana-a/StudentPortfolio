@@ -7,19 +7,30 @@
         <div class="row align-items-center g-5">
             <div class="col-lg-7 reveal">
                 <span class="eyebrow">Software Development Student</span>
-                <h1 class="display-4 fw-black mt-3">Hi, I’m <span class="gradient-text">Dragana</span>!</h1>
-                <p class="lead mt-3">I build clean, responsive, user-focused web applications with C#, ASP.NET Core MVC, JavaScript, databases, and modern front-end design.</p>
-                <p class="text-muted-custom">Career goal: to grow into a full-stack software developer who creates reliable, accessible, and meaningful digital products. <!-- Replace with your real goal. --></p>
+                <h1 class="display-4 fw-black mt-3">
+                    Hi, I’m 
+                    <span class="gradient-text">Dragana</span>!
+                </h1>
+                    <p class="lead mt-3">
+                    I build clean, responsive, user-focused web applications with C#, ASP.NET Core MVC, JavaScript, databases, and modern front-end design.
+                    </p>
+
+                <p class="text-muted-custom">
+                    Career goal: to grow into a full-stack software developer who creates reliable, accessible, and meaningful digital products. 
+                </p>
 
                 <div class="d-flex gap-3 flex-wrap mt-4">
                     <a class="btn btn-primary btn-lg rounded-pill" asp-controller="Projects" asp-action="Index">View Projects</a>
+
                     <a class="btn btn-outline-secondary btn-lg rounded-pill" asp-controller="Resume" asp-action="Index">Resume</a>
+
                     <a class="btn btn-glass btn-lg rounded-pill" asp-controller="Contact" asp-action="Index">Contact</a>
                 </div>
             </div>
             <div class="col-lg-5 reveal delay-1">
                 <div class="profile-card glass-card">
                     <img src="/images/profile.png" alt="Professional portrait placeholder. Replace with your photo." class="profile-photo" />
+
                     <div class="floating-chip chip-one">Python</div>
                     <div class="floating-chip chip-two">C#</div>
                     <div class="floating-chip chip-three">UI/UX</div>
@@ -27,16 +38,33 @@
             </div>
         </div>
         <div class="stats-grid reveal delay-2">
-            <div><strong>10+</strong><span>Academic Projects</span></div>
-            <div><strong>3</strong><span>Major Portfolio Builds</span></div>
-            <div><strong>1</strong><span>International Internship</span></div>
-            <div><strong>100%</strong><span>Growth Mindset</span></div>
+            <div>
+                <strong>10+</strong>
+                <span>Academic Projects</span>
+            </div>
+            <div>
+                <strong>3</strong>
+                <span>Major Portfolio Builds</span>
+            </div>
+            <div>
+                <strong>1</strong>
+                <span>International Internship</span>
+            </div>
+            <div>
+                <strong>100%</strong>
+                <span>Growth Mindset</span>
+            </div>
         </div>
     </div>
 </section>
 <section class="section-pad">
     <div class="container">
-        <div class="section-heading"><span class="eyebrow">Featured Technologies</span><h2>Tools I’m building with</h2></div>
+        <div class="section-heading">
+            <span class="eyebrow">
+                Featured Technologies
+            </span>
+            <h2>Tools I’m building with</h2>
+        </div>
         <div class="skill-pill-grid">
             @foreach (var skill in Model.FeaturedSkills)
             {
@@ -48,7 +76,10 @@
 <section class="section-pad pt-0">
     <div class="container">
         <div class="section-heading d-flex justify-content-between align-items-end gap-3 flex-wrap">
-            <div><span class="eyebrow">Featured Work</span><h2>Selected projects</h2></div>
+            <div>
+                <span class="eyebrow">Featured Work</span>
+                <h2>Selected projects</h2>
+            </div>
             <a asp-controller="Projects" asp-action="Index" class="btn btn-outline-secondary rounded-pill">See all projects</a>
         </div>
         <div class="project-grid">

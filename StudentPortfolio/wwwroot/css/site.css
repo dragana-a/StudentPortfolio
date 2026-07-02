@@ -153,7 +153,7 @@ a {
 .profile-card {
     position: relative;
     padding: 1.2rem;
-    min-height: 420px;
+    min-height: 480px;
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -161,7 +161,7 @@ a {
 
 .profile-photo {
     width: 82%;
-    max-width: 340px;
+    max-width: 400px;
     border-radius: 34px;
 }
 
@@ -267,7 +267,7 @@ a {
 .project-img,
 .detail-img {
     width: 100%;
-    height: 220px;
+    height: 245px;
     object-fit: cover;
     background: linear-gradient(135deg,rgba(236,72,153,.18),rgba(217,70,239,.12));
 }
