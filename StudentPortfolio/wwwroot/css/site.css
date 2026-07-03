@@ -390,6 +390,7 @@ a {
     background: var(--surface);
     color: var(--text);
     border-color: var(--border);
+    padding-left: 1rem;
 }
 
     .form-control:focus,
@@ -399,6 +400,14 @@ a {
         background: var(--surface);
         color: var(--text);
     }
+
+.form-label {
+    display: inline-block;
+    width: auto;
+    margin-left: 1rem;
+    padding-top:.75rem;
+    padding-bottom:.5rem;
+}
 
 .footer {
     border-top: 1px solid var(--border);
