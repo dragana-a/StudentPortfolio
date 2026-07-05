@@ -12,7 +12,6 @@ public class Project
     public string Timeline { get; set; } = string.Empty;
     public string GitHubUrl { get; set; } = string.Empty;
     public string LiveDemoUrl { get; set; } = string.Empty;
-    public string DocumentationUrl { get; set; } = string.Empty;
     public List<string> TechStack { get; set; } = new();
     public List<string> Features { get; set; } = new();
     public List<string> Challenges { get; set; } = new();

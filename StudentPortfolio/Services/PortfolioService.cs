@@ -20,8 +20,7 @@ public class PortfolioService : IPortfolioService
             Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/bakery-capstone",
             LiveDemoUrl = "#",
-            DocumentationUrl = "#",
-
+    
             TechStack = new() { 
                 "C#", 
                 "ASP.NET Core MVC", 
@@ -63,10 +62,9 @@ public class PortfolioService : IPortfolioService
             Description = "Replace with your real analysis findings. This project uses Python, pandas, and visualizations to compare growth, volatility, returns, and correlations.",
 
             ImageUrl = "/images/stocks.svg",
-            Timeline = "Jun 2026",
+            Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/AI-Data-Analysis.git",
             LiveDemoUrl = "#",
-            DocumentationUrl = "#",
 
             TechStack = new() { 
                 "Python", 
@@ -113,8 +111,7 @@ public class PortfolioService : IPortfolioService
             ImageUrl = "/images/personalized-player-1.svg",
             Timeline = "Jan 2026 - Apr 2026",
             GitHubUrl = "#",
-            LiveDemoUrl = "#",
-            DocumentationUrl = "#",
+            LiveDemoUrl = "https://youtu.be/qoh7FBTgdOs",
 
             TechStack = new() { 
                 "JavaScript", 
@@ -165,8 +162,6 @@ public class PortfolioService : IPortfolioService
             GitHubUrl = "https://github.com/dragana-a/5-Stack",
 
             LiveDemoUrl = "#",
-
-            DocumentationUrl = "#",
 
             TechStack = new()
             {
@@ -224,7 +219,6 @@ public class PortfolioService : IPortfolioService
             Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/StudentPortfolio.git",
             LiveDemoUrl = "#",
-            DocumentationUrl = "#",
             TechStack = new()
             {
                 "C#",
@@ -277,7 +271,6 @@ public class PortfolioService : IPortfolioService
             Timeline = "2025",
             GitHubUrl = "https://github.com/dragana-a/Kew-s-Quest-Dragon-s-Lair.git",
             LiveDemoUrl = "https://www.youtube.com/watch?si=VQvVLW8EdTWUV3Yr&v=VqaVK2Zo42Q&feature=youtu.be",
-            DocumentationUrl = "#",
             TechStack = new()
             {
                 "C#",
@@ -329,7 +322,6 @@ public class PortfolioService : IPortfolioService
             Timeline = "2024",
             GitHubUrl = "https://github.com/dragana-a/Mousin--Around.git",
             LiveDemoUrl = "https://dragana-a.github.io/Mousin--Around/",
-            DocumentationUrl = "#",
             TechStack = new()
             {
                 "JavaScript",
@@ -371,7 +363,6 @@ public class PortfolioService : IPortfolioService
             Timeline = "2025",
             GitHubUrl = "https://github.com/dragana-a/Brain-Tumor-Segmentation.git",
             LiveDemoUrl = "#",
-            DocumentationUrl = "#",
             TechStack = new()
             {
                 "Python",
@@ -425,7 +416,6 @@ public class PortfolioService : IPortfolioService
             Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/Gold-and-Oil-Stock-Data-Analysis.git",
             LiveDemoUrl = "#",
-            DocumentationUrl = "#",
             TechStack = new()
             {
                 "Python",
@@ -460,12 +450,11 @@ public class PortfolioService : IPortfolioService
             Title = "Thriftshop Tracker",
             Category = "Web Application",
             Summary = "A JavaScript-based website that uses the user's location to show nearby thrift stores.",
-            Description = "This project is a personal budget tracker that helps users monitor their income and expenses. It provides features forA location-based web app that uses JavaScript and the user’s current GPS location to display nearby thrift stores. The project focuses on interactive maps, geolocation, and helping users quickly find second-hand stores near them.",
+            Description = "This project is a personal budget tracker that helps users monitor their income and expenses. It provides features forA location-based web app that uses JavaScript and the user's current GPS location to display nearby thrift stores. The project focuses on interactive maps, geolocation, and helping users quickly find second-hand stores near them.",
             ImageUrl = "/images/thrift-shop-gps.svg",
             GitHubUrl = "https://github.com/dragana-a/Thrift-Store-GPS.git",
             Timeline = "2025",
             LiveDemoUrl = "#",
-            DocumentationUrl = "#",
             TechStack = new()
             {
                 "JavaScript",
