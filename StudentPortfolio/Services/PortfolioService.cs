@@ -77,7 +77,6 @@ public class PortfolioService : IPortfolioService
                 "Daily returns", 
                 "Growth ranking", 
                 "Correlation matrix", 
-                "Portfolio comparison" 
             },
             Challenges = new() { 
                 "Cleaning multiple CSV files", 
@@ -90,7 +89,6 @@ public class PortfolioService : IPortfolioService
                 "Communicating results" 
             },
             FutureImprovements = new() { 
-                "Automated data refresh", 
                 "Interactive dashboard", 
                 "Risk-adjusted return metrics" 
             }
@@ -106,11 +104,12 @@ public class PortfolioService : IPortfolioService
 
             Summary = "A proof-of-concept browser player that renders personalized Lottie templates from JSON data.",
 
-            Description = "Replace with your real client-safe description. This project focused on JSON-driven personalization, error handling, configuration files, and embeddable playback.",
+            Description = "Percus Player is a web-based personalized video playback platform developed as part of a client-focused software engineering project for Percus Inc. The application dynamically combines animation templates with user-specific JSON data to generate personalized video experiences directly in the browser. Built as a proof of concept, the player supports multiple animation templates, configurable defaults, robust error handling, and seamless data integration. The project emphasized clean architecture, maintainability, and scalability while demonstrating collaborative software development practices through client meetings, agile workflows, documentation, testing, and iterative feature development." +
+            "Due to confidentiality, GitHub is unavailable although a link direct to the clients website is present.",
 
             ImageUrl = "/images/personalized-player-1.svg",
             Timeline = "Jan 2026 - Apr 2026",
-            GitHubUrl = "#",
+            GitHubUrl = "https://www.percus.cl/",
             LiveDemoUrl = "https://youtu.be/qoh7FBTgdOs",
 
             TechStack = new() { 
@@ -130,7 +129,8 @@ public class PortfolioService : IPortfolioService
             Challenges = new() { 
                 "Synchronizing content safely", 
                 "Avoiding hardcoded values", 
-                "Improving handoff documentation" 
+                "Improving handoff documentation",
+                "Backend MVC integration"
             },
             LessonsLearned = new() { 
                 "Client communication", 
@@ -181,7 +181,6 @@ public class PortfolioService : IPortfolioService
             },
             Challenges = new()
             {
-                "Implementing secure user authentication",
                 "Designing the relational database",
                 "Managing user sessions and authorization",
                 "Connecting the frontend with backend data"
@@ -191,15 +190,14 @@ public class PortfolioService : IPortfolioService
                 "Building complete CRUD applications",
                 "Working with authentication and authorization",
                 "Using Entity Framework Core with SQL Server",
-                "Designing scalable full-stack web applications"
+                "Designing scalable full-stack web applications",
+                "Team building and collaboration in a development project"
             },
             FutureImprovements = new()
             {
                 "Like and comment functionality",
                 "Follow and follower system",
                 "Private messaging",
-                "Real-time notifications",
-                "Image uploads",
                 "Search functionality"
             }
         },
@@ -219,6 +217,7 @@ public class PortfolioService : IPortfolioService
             Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/StudentPortfolio.git",
             LiveDemoUrl = "#",
+
             TechStack = new()
             {
                 "C#",
@@ -265,25 +264,24 @@ public class PortfolioService : IPortfolioService
 
             Summary = "A game development project using Godot and C# to create an interactive gaming experience.",
 
-            Description = "This project involves the development of a game using Godot, focusing on gameplay mechanics, user interface design, and interactive elements. The game is designed to provide an engaging experience for players, incorporating various levels, challenges, and rewards.",
+            Description = "This project involves the development of a side scroller game using Godot, focusing on gameplay mechanics, user interface design, and interactive elements. The game is designed to provide an engaging experience for players, incorporating various levels, challenges, and rewards.",
 
             ImageUrl = "/images/csharp-game-1.svg",
             Timeline = "2025",
             GitHubUrl = "https://github.com/dragana-a/Kew-s-Quest-Dragon-s-Lair.git",
             LiveDemoUrl = "https://www.youtube.com/watch?si=VQvVLW8EdTWUV3Yr&v=VqaVK2Zo42Q&feature=youtu.be",
+
             TechStack = new()
             {
                 "C#",
                 "Godot",
                 "Game Design",
-                "2D/3D Graphics",
                 "Animation"
                 },
             Features = new()
             {
                 "Interactive gameplay",
                 "Points system and scoring",
-                "complex level design",
                 "Character animations and effects"
                 },
             Challenges = new()
@@ -303,7 +301,6 @@ public class PortfolioService : IPortfolioService
                 "Adding more levels and challenges",
                 "Creating main menu and settings",
                 "Enhancing graphics and sound effects",
-                "Adding more complex gameplay mechanics"
             }
         },
 
@@ -316,12 +313,14 @@ public class PortfolioService : IPortfolioService
             Category = "Game Development",
 
             Summary = "A browser-based game developed using JavaScript, HTML, and CSS, featuring interactive gameplay and user engagement.",
-            Description = "This project involves creating a browser-based game that challenges players to navigate through various obstacles and achieve high scores. The game is designed to be engaging and interactive, utilizing JavaScript for game logic, HTML for structure, and CSS for styling. Saving player hghscore with multiple levels of difficulty to be selected by the player.",
+
+            Description = "This project involves creating a browser-based game that challenges players to navigate through cat obstacles and obtain cheese for points and achieve high scores. The game is designed to be engaging and interactive, utilizing JavaScript for game logic, HTML for structure, and CSS for styling. Saving player highscore with multiple levels of difficulty to be selected by the player.",
 
             ImageUrl = "/images/mouse-cat-1.svg",
             Timeline = "2024",
             GitHubUrl = "https://github.com/dragana-a/Mousin--Around.git",
             LiveDemoUrl = "https://dragana-a.github.io/Mousin--Around/",
+
             TechStack = new()
             {
                 "JavaScript",
@@ -337,9 +336,9 @@ public class PortfolioService : IPortfolioService
             },
             Challenges = new()
             {
-                "Creating and mapping game figures",
                 "Designing engaging levels",
-                "Ensuring cross-browser compatibility"
+                "Ensuring cross-browser compatibility",
+                "SVG animation and collision detection"
             },
             LessonsLearned = new()
             {
@@ -358,11 +357,14 @@ public class PortfolioService : IPortfolioService
             Category = "Data Analysis",
 
             Summary = "A medical imaging analysis project using Python and machine learning to detect and segment brain tumors from MRI scans.",
+
             Description = "This project focuses on medical image analysis using deep learning techniques to identify and segment brain tumors from MRI scans. The application processes brain scan images, applies preprocessing techniques, and uses convolutional neural networks to accurately detect tumor regions. The goal is to assist medical professionals in early diagnosis and treatment planning by providing automated segmentation results with visualization overlays.",
+
             ImageUrl = "/images/brain-ai-1.svg",
             Timeline = "2025",
             GitHubUrl = "https://github.com/dragana-a/Brain-Tumor-Segmentation.git",
             LiveDemoUrl = "#",
+
             TechStack = new()
             {
                 "Python",
@@ -411,7 +413,9 @@ public class PortfolioService : IPortfolioService
             Category = "Data Analysis",
 
             Summary = "A data analysis project comparing gold and oil market trends from the previous decade using Python and visualization techniques.",
+
             Description = "This project analyzes historical data of gold and oil markets over the past decade. It involves data collection, cleaning, and visualization to identify trends, correlations, and insights. The analysis helps investors and analysts make informed decisions based on historical market behavior.",
+
             ImageUrl = "/images/gold-oil-analysis.svg",
             Timeline = "2026",
             GitHubUrl = "https://github.com/dragana-a/Gold-and-Oil-Stock-Data-Analysis.git",
@@ -422,7 +426,6 @@ public class PortfolioService : IPortfolioService
                 "pandas",
                 "matplotlib",
                 "NumPy",
-                "Data Visualization"
             },
             Features = new()
             {
@@ -444,17 +447,23 @@ public class PortfolioService : IPortfolioService
                 "Interpreting market trends and correlations"
                 },
         },
-        new Project          {
+
+        new Project          
+        {
             Id = 10,
             Slug = "thriftshop-tracker",
             Title = "Thriftshop Tracker",
             Category = "Web Application",
+
             Summary = "A JavaScript-based website that uses the user's location to show nearby thrift stores.",
-            Description = "This project is a personal budget tracker that helps users monitor their income and expenses. It provides features forA location-based web app that uses JavaScript and the user's current GPS location to display nearby thrift stores. The project focuses on interactive maps, geolocation, and helping users quickly find second-hand stores near them.",
+
+            Description = "This project is a location-based web app that uses JavaScript and the user's current GPS location to display nearby thrift stores. The project focuses on interactive maps, geolocation, and helping users quickly find second-hand stores near them.",
+
             ImageUrl = "/images/thrift-shop-gps.svg",
             GitHubUrl = "https://github.com/dragana-a/Thrift-Store-GPS.git",
             Timeline = "2025",
             LiveDemoUrl = "#",
+
             TechStack = new()
             {
                 "JavaScript",
