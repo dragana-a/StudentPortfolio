@@ -704,12 +704,12 @@ public class PortfolioService : IPortfolioService
         },
         new()
         {
-            Title = "Software Development Student",
-            Organization = "Mohawk College",
-            DateRange = "2024 - Present",
-            Type = "Education",
-            Description = "Completed coursework in web development, databases, software engineering, analytics, and application development.",
-            Highlights = new() { "Built ASP.NET Core MVC applications", "Created database-backed projects", "Collaborated on team-based client work" }
+            Title = "Change Business Management in Business Practice",
+            Organization = "Institute of Technology and Business, Czech Republic",
+            DateRange = "May 2026",
+            Type = "Workshop",
+            Description = "Focused on business practise and detailed analysis of various business management strategies. Utilizing case studies and interactive sessions to enhance learning with supplements AI usage",
+            Highlights = new() { "Created a business plan for a hypothetical scenario for a local company", "Analyzed business strategies", "Incorporated AI tools in decision-making" }
         },
         new()
         {
@@ -719,6 +719,24 @@ public class PortfolioService : IPortfolioService
             Type = "Client Project",
             Description = "Contributed to a personalized video player proof of concept with JSON-driven rendering and error handling.",
             Highlights = new() { "Improved config structure", "Added fallback handling", "Supported final documentation" }
-        }
+        },
+        new()
+        {
+            Title = "Software Development Student",
+            Organization = "Mohawk College",
+            DateRange = "2024 - Present",
+            Type = "Education",
+            Description = "Completed coursework in web development, databases, software engineering, analytics, and application development.",
+            Highlights = new() { "Built ASP.NET Core MVC applications", "Created database-backed projects", "Collaborated on team-based client work" }
+        },
+        new()
+        {
+            Title = "Highschool",
+            Organization = "Glendale Highschool",
+            DateRange = "2014 - 2018",
+            Type = "Education",
+            Description = "Completed highschool diploma and foundational coursework in various subjects. While maintaining a strong academic record, actively participated in extracurricular activities and community service.",
+            Highlights = new() { "Participated in extracurricular activities", "Developed wide range of skills", "Engaged in community service projects" }
+        },
     };
 }
