@@ -4,12 +4,6 @@ A modern, responsive portfolio website built with **ASP.NET Core MVC** to showca
 
 ---
 
-## Overview
-
-The website was designed and developed from the ground up using modern web development practices. It emphasizes clean architecture, responsive design, accessibility, and maintainable code while presenting my projects in a professional and visually engaging way.
-
----
-
 ## Features
 
 * Responsive design for desktop, tablet, and mobile devices
@@ -80,8 +74,6 @@ PortfolioWebsite
 ├── ViewModels/
 └── Program.cs
 ```
-
-
 ## Development Highlights
 
 During development, particular attention was given to:
@@ -93,7 +85,3 @@ During development, particular attention was given to:
 * Accessibility best practices
 * Performance optimization
 * Maintainability and scalability
-
----
-
-ucational and portfolio purposes.
